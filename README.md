@@ -4,12 +4,11 @@
  <h2>"Task 2"</h2>
  <p>
  <li>Using the design from Task 1 you are now ready to implement your website using Dreamweaver, CSS and client side scripting.</li> 
-  <li>Make sure that your website demonstrates a consistent theme throughout and the pages within the website are easily identifiable.</li>  
-  <li>Your website needs to be dynamic and interesting, fully functional and free from errors.</li>
+ <li>Make sure that your website demonstrates a consistent theme throughout and the pages within the website are easily identifiable.</li>  
+ <li>Your website needs to be dynamic and interesting, fully functional and free from errors.</li>
+ <li>Build the multi-page website with two-way interaction for Simply-Buy. (P5)</li>
 
-  1. Build the multi-page website with two-way interaction for Simply-Buy.	(P5)
-
-  __Guidance__
-  A multi-page web site must be available demonstrating two way interactivity.  Your website needs to demonstrate good navigation with a balance of text and other resources that fulfils the clients and user needs identified in the brief.
+__Guidance__
+A multi-page web site must be available demonstrating two way interactivity.  Your website needs to demonstrate good navigation with a balance of text and other resources that fulfils the clients and user needs identified in the brief.
 
  </p>

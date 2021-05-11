@@ -634,6 +634,21 @@ b, strong {
     vertical-align: top;
   }
 
+  /* Light mode */
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+}
   
   
 }

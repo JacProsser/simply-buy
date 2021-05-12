@@ -146,11 +146,11 @@ b, strong {
 }
 .custom-btn.custom-btn-bg {
   background: #03be61;
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .custom-btn.custom-btn-bg:hover {
   background: #00FF7F;
-  color: #ffffff !important;
+  color: #f5f5f5 !important;
 }
 
 .custom-btn5 {
@@ -168,11 +168,11 @@ b, strong {
 }
 .custom-btn5.custom-btn-bg5 {
   background: #474559;
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .custom-btn5.custom-btn-bg5:hover {
   background: #00FF7F;
-  color: #ffffff !important;
+  color: #f5f5f5 !important;
 }
 
 .animated {
@@ -247,7 +247,7 @@ b, strong {
 }
 
 .navbar[class*=headroom--not-top] {
-  background: #ffffff;
+  background: #f5f5f5;
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
@@ -351,7 +351,7 @@ b, strong {
   font-family: "unicons";
   content: "";
   font-size: 30px;
-  color: #ffffff;
+  color: #f5f5f5;
 }
 
 .dark-mode {
@@ -369,18 +369,18 @@ b, strong {
 }
 .dark-mode .small-text {
   background: #0d0c15;
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand .carousel-inner,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p,
 .dark-mode .color-mode {
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
+  color: #f5f5f5;
 }
 
 .timeline-wrapper {
@@ -409,7 +409,7 @@ b, strong {
   text-align: center;
 }
 .timeline-yr span {
-  color: #ffffff;
+  color: #f5f5f5;
   font-size: 16px;
   font-weight: bold;
   display: block;
@@ -505,7 +505,7 @@ b, strong {
 .contact-form .submit-btn {
   background: #03be61;
   border-radius: 50px;
-  color: #ffffff;
+  color: #f5f5f5;
   font-weight: bold;
   border: 0;
   cursor: pointer;

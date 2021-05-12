@@ -1,0 +1,48 @@
+html[theme='light'] {
+    --text-color: black;
+    --background-color: #F5F5F5;
+    --background-color-hover: #f5f5f5;
+    --link-color: #00FF7F;
+    --link-hover-color: #00FF7F;
+  }
+  
+  html[theme='dark'] {
+    --text-color: white;
+    --background-color: #121212;
+    --background-color-hover: #101010;
+    --link-color: #00FF7F;
+    --link-hover-color: #00FF7F;
+  }
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    margin-right: -10px;
+    background-color: var(--text-color);
+    border-radius:10px;
+}
+
+@media (max-width: 400px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .collapse {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}

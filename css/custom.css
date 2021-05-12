@@ -33,7 +33,7 @@ html[theme='light'] {
     border-radius:10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
     }
@@ -66,7 +66,8 @@ html[theme='light'] {
     }
 
     .color-mode-toggle {
-        margin-top: -4px;
+        margin-top: -80px;
+        margin-left: -20px;
         align-items: center;
     }
 

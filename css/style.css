@@ -576,14 +576,6 @@ b, strong {
     font-size: 28px;
   }
 
-  .navbar-collapse {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  .navbar-expand-sm .navbar-nav .nav-link {
-    padding: 3px 20px;
-  }
 }
 @media (max-width: 580px) {
   .animated-item {

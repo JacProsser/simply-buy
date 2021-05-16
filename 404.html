@@ -8,7 +8,17 @@
   <meta name="author" content="">
 
   <title>404 | simply-buy </title>
-  <link rel="icon" href="images/favicon_io/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon_io/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon_io/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon_io/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicon_io/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/unicons.css">
@@ -57,7 +67,7 @@
               </div>
             </div>
           </li>
-    <!--       <li class="nav-item">
+          <!--       <li class="nav-item">
             <a href="https://github.com/JacProsser" target="_blank" class="nav-link"><span
                 data-hover="Github"></span></a>
           </li>
@@ -66,24 +76,16 @@
                 data-hover="LinkedIn"></span></a>
           </li> -->
           <li class="nav-item">
-            <a href="https://www.prosserjac.xyz/simply-buy/contact" class="nav-link"><i class="fas fa-phone-alt"></i> Contact</a>
+            <a href="https://www.prosserjac.xyz/simply-buy/contact" class="nav-link"><i class="fas fa-phone-alt"></i>
+              Contact</a>
           </li>
         </ul>
       </div>
 
-        <ul class="navbar-nav ml-lg-auto">
-          <button
-          class="color-mode-toggle light-hidden"
-          aria-label="Toggle Light Mode"
-        >
-          <svg
-            id="sun"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
+      <ul class="navbar-nav ml-lg-auto">
+        <button class="color-mode-toggle light-hidden" aria-label="Toggle Light Mode">
+          <svg id="sun" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -95,50 +97,42 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
         </button>
-        <button
-          class="color-mode-toggle dark-hidden"
-          aria-label="Toggle Dark Mode"
-        >
-          <svg
-            id="moon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
+        <button class="color-mode-toggle dark-hidden" aria-label="Toggle Dark Mode">
+          <svg id="moon" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
-            </div>
-          </div>
-        </ul>
-      </div>
+    </div>
+    </div>
+    </ul>
+    </div>
     </div>
   </nav>
 
 
 
-</div>
+  </div>
   <h1 style="position: relative; top: 100px; left: 800px; font-size: 150px; line-height: 19rem;">4<span>0</span>4</h1>
   <p style="position: relative; top: 10px; left: 855px; font-size: 25px; line-height: inherit;">Page Not Found.</p>
-  <p style="position: relative; top: 1px; left: 815px; font-size: 25px; line-height: inherit;"><span id="timer"></span></p>
-</div>
-<script type="text/javascript">
+  <p style="position: relative; top: 1px; left: 815px; font-size: 25px; line-height: inherit;"><span id="timer"></span>
+  </p>
+  </div>
+  <script type="text/javascript">
     var count = 6;
     var redirect = "/about";
-    function countDown(){
-        var timer = document.getElementById("timer");
-        if(count > 0){
-            count--;
-            timer.innerHTML = "Back home in "+count+" seconds";
-            setTimeout("countDown()", 1000);
-            }else{
-            window.location.href = redirect;
-        }
+    function countDown() {
+      var timer = document.getElementById("timer");
+      if (count > 0) {
+        count--;
+        timer.innerHTML = "Back home in " + count + " seconds";
+        setTimeout("countDown()", 1000);
+      } else {
+        window.location.href = redirect;
+      }
     }
     countDown();
-</script>
+  </script>
 
 
 
@@ -148,13 +142,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center"> 
+          <p class="copyright-text text-center">
         </div>
       </div>
     </div>
   </footer>
 
-  
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

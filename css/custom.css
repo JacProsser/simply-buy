@@ -1,74 +1,131 @@
-html[theme='light'] {
-    --text-color: black;
-    --background-color: #F5F5F5;
-    --background-color-hover: #f5f5f5;
-    --link-color: #00FF7F;
-    --link-hover-color: #00FF7F;
-  }
-  
-  html[theme='dark'] {
-    --text-color: white;
-    --background-color: #121212;
-    --background-color-hover: #101010;
-    --link-color: #00FF7F;
-    --link-hover-color: #00FF7F;
-  }
+html[theme="light"] {
+  --text-color: black;
+  --background-color: #f5f5f5;
+  --background-color-hover: #f5f5f5;
+  --link-color: #00ff7f;
+  --link-hover-color: #00ff7f;
+}
+
+html[theme="dark"] {
+  --text-color: white;
+  --background-color: #121212;
+  --background-color-hover: #101010;
+  --link-color: #00ff7f;
+  --link-hover-color: #00ff7f;
+}
 
 .toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
 
 .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    margin-right: -10px;
-    background-color: var(--text-color);
-    border-radius:10px;
+  height: 3px;
+  width: 100%;
+  margin-right: -10px;
+  background-color: var(--text-color);
+  border-radius: 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  min-width: 100px;
+}
+
+.dropdown-content a {
+  font-weight: 600;
+  font-family: "Maven Pro", sans-serif;
+}
+/* Links inside the dropdown */
+.dropdown-content li {
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding-left: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.dropdown-content ul {
+  position: absolute;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: var(--link-color);
 }
 
 @media (max-width: 800px) {
-    .toggle-button {
-        display: flex;
-    }
+  .toggle-button {
+    display: flex;
+  }
 
-    .collapse {
-       display: none;
-       width: 100%;
-    }
+  .collapse {
+    display: none;
+    width: 100%;
+  }
 
-    .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .collapse ul {
-        width: 100%;
-        flex-direction: column;
-    }
+  .collapse ul {
+    width: 100%;
+    flex-direction: column;
+  }
 
-    .collapse li {
-        text-align: center;
-    }
+  .collapse li {
+    text-align: center;
+  }
 
-    .collapse li a {
-        padding: .5rem 1rem;
-    }
+  .collapse li a {
+    padding: 0.5rem 1rem;
+  }
 
-    .collapse.active {
-        display: flex;
-    }
+  .collapse.active {
+    display: flex;
+  }
 
-    .color-mode-toggle {
-        margin-top: -4px;
-        align-items: center;
-    }
+  .color-mode-toggle {
+    margin-top: -4px;
+    align-items: center;
+  }
 
+  .dropdown:hover {
+    margin-bottom: 70px;
+  }
 
+  .dropdown-content li {
+    float: none;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
 }

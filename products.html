@@ -43,9 +43,19 @@
             <a href="https://www.prosserjac.xyz/simply-buy/home" class="nav-link"><i class="fas fa-home"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a href="https://www.prosserjac.xyz/simply-buy/products" class="nav-link"><i class="fas fa-shopping-bag"></i> Products</a>
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fas fa-shopping-bag"></i> Products
+                <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="">Toys</a></li>
+                  <li><a href="#">Electronics</a></li>
+                  <li><a href="#">Jewellery</a></li>
+                </ul>
+              </div>
+            </div>
           </li>
-    <!--       <li class="nav-item">
+          <!--       <li class="nav-item">
             <a href="https://github.com/JacProsser" target="_blank" class="nav-link"><span
                 data-hover="Github"></span></a>
           </li>
@@ -54,24 +64,16 @@
                 data-hover="LinkedIn"></span></a>
           </li> -->
           <li class="nav-item">
-            <a href="https://www.prosserjac.xyz/simply-buy/contact" class="nav-link"><i class="fas fa-phone-alt"></i> Contact</a>
+            <a href="https://www.prosserjac.xyz/simply-buy/contact" class="nav-link"><i class="fas fa-phone-alt"></i>
+              Contact</a>
           </li>
         </ul>
       </div>
 
-        <ul class="navbar-nav ml-lg-auto">
-          <button
-          class="color-mode-toggle light-hidden"
-          aria-label="Toggle Light Mode"
-        >
-          <svg
-            id="sun"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
+      <ul class="navbar-nav ml-lg-auto">
+        <button class="color-mode-toggle light-hidden" aria-label="Toggle Light Mode">
+          <svg id="sun" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -83,28 +85,19 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
         </button>
-        <button
-          class="color-mode-toggle dark-hidden"
-          aria-label="Toggle Dark Mode"
-        >
-          <svg
-            id="moon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
+        <button class="color-mode-toggle dark-hidden" aria-label="Toggle Dark Mode">
+          <svg id="moon" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
-            </div>
-          </div>
-        </ul>
-      </div>
+    </div>
+    </div>
+    </ul>
+    </div>
     </div>
   </nav>
-  
+
 
 
 
@@ -119,7 +112,7 @@
     </div>
   </footer>
 
-  
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

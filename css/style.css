@@ -238,6 +238,17 @@ strong {
     opacity: 0;
   }
 }
+
+.links li {
+  position: relative;
+  display: inline-block;
+  padding-left: 380px;
+  padding-top: 270px;
+}
+
+.links a {
+  font-weight: bold;
+}
 .navbar {
   overflow: visible;
   position: fixed;

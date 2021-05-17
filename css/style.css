@@ -249,6 +249,17 @@ strong {
 .links a {
   font-weight: bold;
 }
+
+.products img {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+    padding-left: 100px;
+	width: 450px;
+	height: 450px;
+	padding-top: 100px;
+	position: relative;
+}
 .navbar {
   overflow: visible;
   position: fixed;

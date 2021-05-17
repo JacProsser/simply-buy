@@ -243,7 +243,7 @@ strong {
   position: relative;
   display: inline-block;
   padding-left: 380px;
-  padding-top: 270px;
+  padding-top: 250px;
 }
 
 .links a {
@@ -251,12 +251,12 @@ strong {
 }
 
 .products img {
-	margin-left: auto;
+	margin-left: 300px;
 	margin-right: auto;
 	display: inline-block;
-    padding-left: 100px;
-	width: 450px;
-	height: 450px;
+  padding-left: 60px;
+	width: 250px;
+	height: 250px;
 	padding-top: 100px;
 	position: relative;
 }
